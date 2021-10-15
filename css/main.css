@@ -67,6 +67,16 @@ p {
   color: var(--color-texts);
 }
 
+.banner {
+  position: fixed;
+  top: 4rem;
+  z-index: 900;
+}
+
+.banner img {
+  width: 100%;
+}
+
 .default-logo, .default-shape {
   display: block;
 }
