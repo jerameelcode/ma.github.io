@@ -1,7 +1,6 @@
 "use strict";
 $(document).ready(function() {
 
-
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         AOS Animation Activation
     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -11,7 +10,10 @@ $(document).ready(function() {
         once: true
     })
 
- 
+   
+
+    
+
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
            Sticky Header
@@ -38,6 +40,31 @@ $(document).ready(function() {
             $(".site-header--sticky.scrolling").removeClass("reveal-header");
         }
     }
+
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+           Prcing Dynamic Script
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    $('#table-price-value .toggle-btn').on("click", function(e) {
+        console.log($(e.target).parent().parent().hasClass("monthly-active"));
+        $(e.target).toggleClass("clicked");
+        if ($(e.target).parent().parent().hasClass("monthly-active")) {
+            $(e.target).parent().parent().removeClass("monthly-active").addClass("yearly-active");
+        } else {
+            $(e.target).parent().parent().removeClass("yearly-active").addClass("monthly-active");
+        }
+    });
+
+    $("[data-pricing-trigger]").on("click", function(e) {
+        $(e.target).addClass("active").siblings().removeClass("active");
+        var target = $(e.target).attr("data-target");
+        console.log($(target).attr("data-value-active") == "monthly");
+        if ($(target).attr("data-value-active") == "monthly") {
+            $(target).attr("data-value-active", "yearly");
+        } else {
+            $(target).attr("data-value-active", "monthly");
+        }
+    });
 
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
@@ -74,31 +101,6 @@ $(document).ready(function() {
         }, 2000);
     });
 
-
-
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
-          Landing 11 Testimonial Slider
-      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
-    if (jQuery(".testimonial-slider-l-11").length > 0) {
-        $(".testimonial-slider-l-11").slick({
-            dots: false,
-            arrows: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            prevArrow: '<div class="l-11-slide-btn slick-prev focus-reset"><img src="./image/l2/long-arrow-left.png" alt=""></div>',
-            nextArrow: '<div class="l-11-slide-btn slick-next focus-reset"><img src="./image/l2/long-arrow-right.png" alt=""></div>',
-            responsive: [{
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            }, ],
-        });
-    }
 
 
 
