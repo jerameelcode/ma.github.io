@@ -5,40 +5,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Software 2.0 </title>
+  <title>Desktop App </title>
   <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
   <!-- Bootstrap , fonts & icons  -->
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
   <link rel="stylesheet" href="./fonts/typography-font/typo.css">
   <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
   <link rel="stylesheet" href="./plugins/aos/aos.min.css">
-  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <!-- Vendor stylesheets  -->
   <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
 </head>
 
 <body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
   <div class="site-wrapper overflow-hidden position-relative">
-    
-    <header class="site-header site-header--menu-left landing-11-menu site-header--absolute site-header--sticky">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header
+      class="site-header site-header--menu-center dark-mode-texts landing-17-menu  site-header--absolute site-header--sticky">
       <div class="container">
         <nav class="navbar site-navbar">
           <!-- Brand Logo-->
           <div class="brand-logo">
             <a href="#">
-              <!-- light version logo (logo must be black)-->
-              <img src="image/conta.png" style="width: 70px;" alt="" class="light-version-logo">
-              <!-- Dark version logo (logo must be White)-->
-              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
+              <a href="#">
+                <!-- light version logo (logo must be black)-->
+                <img src="image/conta.png" style="width: 70px;" alt="" class="light-version-logo">
+                <!-- Dark version logo (logo must be White)-->
+                <img src="image/conta.png" alt="" class="dark-version-logo">
+              </a>
             </a>
           </div>
           <div class="menu-block-wrapper">
@@ -74,16 +87,17 @@
                   <a href="#" class="nav-link-item">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://api.whatsapp.com/send/?phone=5511951647240&text&app_absent=0" class="nav-link-item">Atendimento</a>
+                  <a href="https://api.whatsapp.com/send/?phone=5511951647240&text&app_absent=0"
+                    class="nav-link-item">Atendimento</a>
                 </li>
               </ul>
             </nav>
           </div>
-          <div class="header-btns  header-btn-l11 ms-auto d-none d-xs-inline-flex align-items-center">
-            <a class="btn log-in-btn focus-reset" href="tel:5511951647240">
+          <div class="header-btns  header-btn-l-17 ms-auto d-none d-xs-inline-flex align-items-center">
+            <a class="btn sign-in-btn focus-reset" href="#">
               Ligar
             </a>
-            <a class="download-trail-btn btn focus-reset" href="https://api.whatsapp.com/send/?phone=5511948748338&text&app_absent=0">
+            <a class="start-trail-btn btn focus-reset" href="#">
               Orçamento
             </a>
           </div>
@@ -97,271 +111,484 @@
     </header>
     <!-- navbar- -->
     <!-- Hero Area -->
-    <div class="hero-area-l11 position-relative z-index-1 overflow-hidden">
-      <div class="container position-relative">
+    <div class="hero-area-l-17 position-relative">
+      <div class="container">
         <div class="row position-relative justify-content-center">
-          <div class="col-xl-8 col-lg-9 col-md-12 order-lg-1 order-1" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-            <div class="content">
-              <h1>FAZ PRA MIM SERVIÇOS GERAIS<br class="d-none d-md-block">Marido de Aluguel.</h1>
-              <div class="row banner-l-11-bottom-content">
-                <div class="col-lg-8 col-md-8 col-sm-10">
-                  <p class="position-relative banner-main-content-l-11">
-                    Trabalhamos sempre assumindo compromissos de ética e 
-                    parceria com seus clientes, colocando a disposição os 
-                    melhores profissionais qualificados que buscam o 
-                    aprimoramento contínuo contribuindo sempre com o 
-                    progresso e sucesso do seus negócios.
-                    <span class="line-left-content"></span>
-                  </p>
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11 order-lg-1 order-1" data-aos="fade-right"
+            data-aos-duration="800" data-aos-once="true">
+            <div class="content text-center">
+              <h1>FAZ PRA MIM SERVIÇOS GERAIS!</h1>
+              <p>Trabalhamos sempre assumindo compromissos de ética e parceria com nossos clientes, colocando a disposição os melhores profissionais qualificados.</p>
+              <a href="#" class="btn">Pedir orçamento grátis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-area-l-17 position-relative">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div>
+            <div class="clearboth"></div>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="col-sm-12">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="list-61" class="mk-list-styles  mk-align-none   clear" data-charcode="mk-icon-check"
+                        data-family="">
+                        <ul>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Espelhos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Porta Chaves</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Varais de Teto e Parede</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Olho Mágico</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Trava Portas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Gancho para Redes</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Puchadores</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Fechaduras</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação e Montagem de Armários</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Acessórios de Banheiro</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Canoplas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Cooktop</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Aplicação de Rejunte</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Quadros</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Aplicação/instalação de fita antiderrapante</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Suportes de TV</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instal. de Ar Condicionado DE JANELA</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de baús</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de camas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de Aparadores</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 flex-y-center ">
-                  <a class="btn l-11-hero-btn" href="#">Pedir orçamento</a>
+                <div class="col-sm-12">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="list-62" class="mk-list-styles  mk-align-none   clear" data-charcode="mk-icon-check"
+                        data-family="">
+                        <ul>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Pequenos Reparos em Gesso</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Suporte para Plantas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação e Montagem de Nichos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Painéis para TV</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Pega Ladrão</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Porta Sanfonada</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação e Montagem de Prateleiras</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Registro de Gás</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Cortinas e Persianas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de Sapateira</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Ombrellone</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Docel</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Veda Portas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instal. de Magueiras para gás de Fogão</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de bancos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de cavaletes</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Fixação de cubos/nichos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>TEMOS SCANNER DETECTOR DE CANOS E REDE ELÉTRICA</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-xl-3 col-lg-4">
-                  <div class="compitable-text border-top d-inline-block">
-                    <p>Redes sociais:</p>
-                    <div class="compatible-icon flex-y-center img-grayscale">
-                      <a href="https://api.whatsapp.com/send/?phone=5511948748338&text&app_absent=0" class="font-size-13 mr-7"><i class="fab fa-whatsapp" style="font-size: 40px;"></i></a>
-                      <a href="https://instagram.com/fazpramimmontagem?utm_medium=copy_link" class="font-size-13 mr-7"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
-                      <a href="https://www.facebook.com/profile.php?id=100066101843825" class="font-size-21"><i class="fab fa-facebook" style="font-size: 40px;"></i></a>
+              </div>
+              <div class="col-md-6" style="background-image: url(image/l8/back.jpg); background-size:cover;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Content Area 1-->
+    <div class="content-area-l-17-1">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-10 col-lg-12">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <div class="content-img position-relative">
+                  <div class="image-1">
+                    <img src="image/l8/images1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-6 col-md-8" data-aos="fade-left"
+                data-aos-duration="800" data-aos-once="true">
+                <div class="content section-heading-11">
+                  <h2>Conserto de vazamento de gás.</h2>
+                  <p>Atendemos todas regiões de São Paulo 
+                    e Grande São Paulo, trabalhamos sempre 
+                    assumindo compromissos de ética e parceria 
+                    com seus clientes, colocando a disposição 
+                    os melhores profissionais qualificados que 
+                    buscam o aprimoramento contínuo contribuindo 
+                    sempre com o progresso e sucesso do seus negócios.</p>
+                  <a href="#" class="btn focus-reset">Orçamento</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Content Area 2-->
+    <div class="content-area-l-17-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-10 col-lg-12">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-1" data-aos="fade-left"
+                data-aos-duration="800" data-aos-once="true">
+                <div class="content section-heading-11">
+                  <h2>Eletricista 24 horas</h2>
+                  <p>A Marido de Aluguel trabalha com Eletricista 
+                    24 horas em São Paulo – Uma vez capacitado, 
+                    o rol de atividades do eletricista incluí 
+                    analisar e interpretar a fiação elétrica 
+                    através de esquemas e desenhos elétricos.</p>
+                  <a href="#" class="btn focus-reset">Orçamento</a>
+                </div>
+              </div>
+              <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-right"
+                data-aos-duration="800" data-aos-once="true">
+                <div class="content-img position-relative">
+                  <div class="image-1">
+                    <img src="image/l8/images3.png" alt="">
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--Content Area 3-->
+        <div class="content-area-l-17-2">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-xl-10 col-lg-12">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-1" data-aos="fade-left"
+                    data-aos-duration="800" data-aos-once="true">
+                    <div class="content section-heading-11">
+                      <h2>Eletricista 24 horas</h2>
+                      <p>A Marido de Aluguel trabalha com Eletricista 
+                        24 horas em São Paulo – Uma vez capacitado, 
+                        o rol de atividades do eletricista incluí 
+                        analisar e interpretar a fiação elétrica 
+                        através de esquemas e desenhos elétricos.</p>
+                      <a href="#" class="btn focus-reset">Orçamento</a>
+                    </div>
+                  </div>
+                  <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-right"
+                    data-aos-duration="800" data-aos-once="true">
+                    <div class="content-img position-relative">
+                      <div class="image-1">
+                        <img src="image/l8/ferramentas.png" alt="">
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-9 order-lg-1 order-0" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-            <img src="ima/banner.jpeg" alt="" class="w-100 hero-l11-main-image">
-          </div>
         </div>
-      </div>
-      <div class="hero-shape-l11-1 d-none d-md-block">
-        <img src="./image/l2/hero-shape-1.svg" alt="">
-      </div>
-      <div class="hero-shape-l11-2 d-none d-md-block">
-        <img src="./image/l2/hero-shape-2.png" alt="">
-      </div>
-    </div>
-
-    <!-- Content Area-1 -->
-    <div class="content-area-l-11-1">
+    <!--Video Area-->
+    <div class="video-area-l-17">
       <div class="container">
-        <div class="row align-items-center justify-content-lg-start justify-content-center">
-          <div class="col-xl-6 col-md-5 col-md-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-            <div class="content-img position-relative z-index-1">
-              <img src="image/image2.png" alt="" class="w-100">
-            </div>
-          </div>
-          <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-            <div class="content section-heading-5">
-              <h2>
-                Conserto de vazamento de gás.
-              </h2>
-              <p>Atendemos todas regiões de São Paulo e Grande São Paulo, 
-                trabalhamos sempre assumindo compromissos de ética e 
-                parceria com seus clientes, colocando a disposição os 
-                melhores profissionais qualificados que buscam o 
-                aprimoramento contínuo contribuindo sempre com o 
-                progresso e sucesso do seus negócios.
-              </p>
+        <div class="row justify-content-center">
+          <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-12">
+            <div class="video-content text-center">
+              <a data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
+                  class="fas fa-play font-size-7"></i></a>
+              <h2>Telhadista 24 horas</h2>
+              <p>Nos valorizamos muito esse setor de trabalho, 
+                A contratação de mão de obra especializada é 
+                importante porque as coberturas estão entre 
+                as partes mais importantes de uma casa, 
+                empresa ou construções em geral.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Content Area-2  -->
-    <div class="content-area-l-11-2">
+    
+    <!--Testimonial Area-->
+    <div class="testimonial-area-l-17">
       <div class="container">
-        <div class="row align-items-center justify-content-lg-between justify-content-center">
-          <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-            <div class="content section-heading-5">
-              <h2>
-                Disponíveis em todas as cidades.
-              </h2>
-              <div class="d-flex content-l-11-3-card">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="27" viewBox="0 0 32 27">
-                  <g>
-                    <g>
-                      <g>
-                        <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M25.528 25.615v0h5.47v0-5.911c0-.56-.341-1.062-.86-1.27l-5.118-2.05a1.367 1.367 0 0 1-.86-1.267v-1.2a5.445 5.445 0 0 0 2.735-4.711V6.471a5.47 5.47 0 0 0-8.205-4.738">
-                        </path>
-                      </g>
-                      <g>
-                        <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M19.367 19.846l-5.14-2.036a1.358 1.358 0 0 1-.864-1.257v-1.192a5.394 5.394 0 0 0 2.747-4.676V7.97c0-2.999-2.46-5.43-5.495-5.43-3.034 0-5.494 2.431-5.494 5.43v2.715a5.394 5.394 0 0 0 2.747 4.676v1.192c0 .555-.342 1.054-.864 1.26l-5.14 2.036c-.52.206-.863.703-.864 1.257v4.51h19.23v0-4.51c0-.555-.342-1.054-.863-1.26z">
-                        </path>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-                <div class="content-body">
-                  <h5>Fácil agendamento</h5>
-                  <p>Reserva de horário flexível e negociação de transporte.</p>
-                </div>
-              </div>
-              <div class="d-flex content-l-11-3-card">
-                <img src="image/l2/settings.svg" alt="icon">
-                <div class="content-body">
-                  <h5>Ferramentas de qualidade para as suas necessidades</h5>
-                  <p>Levamos nosso ferramental e garantimos a integridade dos seus equipamentos.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-            <div class="content-img">
-              <img src="image/images2.png" alt="" class="w-lg-auto w-100">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Content Area -->
-    <div class="content-area-l-11-3 position-relative">
-      <div class="container">
-        <div class="row align-items-center justify-content-center justify-content-lg-start">
-          <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-            <div class="content-img">
-              <img src="image/images1.png" alt="" class="w-100">
-            </div>
-          </div>
-          <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-            <div class="content section-heading-5">
-              <h2>Nossos serviços incluem.</h2>
+        <div class="row justify-content-center no-gutters border-collapse-1">
+          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
+            <div class="testimonial-card border h-100">
+              <img src="image/l8/quote.png" alt="">
               <p>
-                Encanador em São Paulo SP 24 horas encanador em SP, 
-                nos serviços de Encanador de: ralos, pias, 
-                vasos sanitários, coluna, esgoto, caça vazamento, 
-                inspeção e outros. Detecção de vazamento, troca 
-                de colunas de água potável esgoto e águas pluviais.
+                  Já é a segunda vez que utilizo os serviços da FAZ PRA MIM Serviços Gerais! 
+                  O Danilo é extremamente caprichoso, cuidados! O trabalho fica perfeito! 
+                  Eu super recomendo e indico!
               </p>
-              <ul class="list-unstyled pl-0">
-                <li class="d-flex align-items-center">
-                  <i class="fas fa-check"></i>Garantia de qualidade.
-                </li>
-                <li class="d-flex align-items-center">
-                  <i class="fas fa-check"></i>Eficiência e compromisso.
-                </li>
-                <li class="d-flex align-items-center">
-                  <i class="fas fa-check"></i>Pontualidade.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Feature Area -->
-    <div class="feature-l-11">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-9 px-lg-12 col-md-12">
-            <div class="row justify-content-center">
-              <div class="col-lg-10 text-center">
-                <div class="section-heading-5">
-                  <h2>
-                    Uma plataforma, todas as soluções.
-                  </h2>
-                  <p>Encanador em São Paulo SP 24 horas encanador em SP, 
-                    nos serviços de Encanador de: ralos, pias, 
-                    vasos sanitários, coluna, esgoto, caça vazamento, 
-                    inspeção e outros.</p>
+              <div class="d-flex align-items-center">
+                <div class="customer-img mr-4">
+                  <img src="image/l8/client-img-2.png" alt="">
                 </div>
-              </div>
-            </div>
-            <div class="row feature-l-11-items justify-content-center">
-              <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-                <div class="d-flex ">
-                  <div class="icon-box">
-                    <i class="icon icon-pen-01"></i>
-                  </div>
-                  <div class="content-body">
-                    <h5>Eletricista 24 horas</h5>
-                    <p>A Marido de Aluguel trabalha com Eletricista 
-                      24 horas em São Paulo – Uma vez capacitado, 
-                      o rol de atividades do eletricista incluí 
-                      analisar e interpretar a fiação elétrica 
-                      através de esquemas e desenhos elétricos.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-                <div class="d-flex ">
-                  <div class="icon-box">
-                    <i class="icon icon-layers-3"></i>
-                  </div>
-                  <div class="content-body">
-                    <h5>Telhadista 24 horas</h5>
-                    <p>Nos valorizamos muito esse setor de trabalho, 
-                      A contratação de mão de obra especializada é 
-                      importante porque as coberturas estão entre 
-                      as partes mais importantes de uma casa, 
-                      empresa ou construções em geral.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                <div class="d-flex ">
-                  <div class="icon-box">
-                    <i class="icon icon-office"></i>
-                  </div>
-                  <div class="content-body">
-                    <h5>Marido de Aluguel</h5>
-                    <p>
-                      Bem vindo ao Marido de Aluguel, 
-                      não importa onde você mora em 
-                      São Paulo,Interior, Baixada 
-                      Santista e adjacências o Marido 
-                      de Aluguel, Desentupidora, Dedetizadora, 
-                      Encanador, Eletricista, Telhadista e outros 
-                      profissionais irão até você 24 horas 
-                      todos os 7 dias da semana.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                <div class="d-flex ">
-                  <div class="icon-box">
-                    <i class="icon icon-book-open-2"></i>
-                  </div>
-                  <div class="content-body">
-                    <h5>Encanador 24 horas</h5>
-                    <p>
-                      Encanador em São Paulo SP 24 horasencanador-em-SP, 
-                      nos serviços de Encanador de: ralos, pias, vasos 
-                      sanitários, coluna, esgoto, caça vazamento, 
-                      inspeção e outros. Detecção de vazamento, 
-                      troca de colunas de água potável esgoto 
-                      e águas pluviais.
-                    </p>
-                  </div>
+                <div class="user-identity">
+                  <h5>Poliana</h5>
+                  <span>Cliente</span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Testimonial Section -->
-    <div class="testimonial-area-l-11">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-7 col-lg-9" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
-            <div class="section-heading-5 text-center">
-              <h2>
-                Mais de 30.000 clientes confiam em nós.
-              </h2>
-              <p>testamos protótipos que ajudaram a identificar pontos problemáticos no processo de criação de contas. Juntos, moldamos o novo padrão.</p>
+          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
+            <div class="testimonial-card border h-100">
+              <img src="image/l8/quote.png" alt="" class="mb-12">
+              <p>
+                FAZ PRA MIM SERVIÇOS GERAIS o melhor da
+                    região Embu das Artes e ainda é 24 horas super recomendo!
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="customer-img">
+                  <img src="image/l8/client-img-1.png" alt="">
+                </div>
+                <div class="user-identity">
+                  <h5>Jadson</h5>
+                  <span>Cliente</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-          <div class="col-xl-10 col-lg-12 col-md-10">
-            <div class="testimonial-slider-l-11 position-relative">
-              <div class="single-slide focus-reset">
-                <div class="testimonial-card">
-                  <p>
-                    <span class="d-inline-block quote-size-1">“</span>
+          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
+            <div class="testimonial-card border h-100">
+              <img src="image/l8/quote.png" alt="" class="mb-12">
+              <p>
                     Sabe aquela lista de coisas para consertar na casa
                     e que deixamos sempre pra depois? Uma lâmpada que
                     não liga mais, uma porta de guarda roupa que não
@@ -369,61 +596,15 @@
                     como foi o meu caso, a troca de uma resistência
                     de chuveiro. Vilson e Vilma são profissionais 
                     de qualidade e excelência. Dá para confiar. 
-                    Superou as expectativas. Se recomendo? Óbvio!”
-                  </p>
-                  <div class="d-flex user-details align-items-center">
-                    <div class="user-identity">
-                      <h5>Michele</h5>
-                      <span>Cliente</span>
-                    </div>
-                  </div>
+                    Superou as expectativas. Se recomendo? Óbvio!
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="customer-img mr-4">
+                  <img src="image/l8/client-img-4.png" alt="">
                 </div>
-              </div>
-              <div class="single-slide focus-reset">
-                <div class="testimonial-card">
-                  <p>
-                    <span class="d-inline-block quote-size-1">“</span>
-                    Já é a segunda vez que utilizo os serviços da FAZ PRA MIM Serviços Gerais! 
-                    O Danilo é extremamente caprichoso, cuidados! O trabalho fica perfeito! 
-                    Eu super recomendo e indico!”
-                  </p>
-                  <div class="d-flex user-details  align-items-center">
-                    <div class="user-identity">
-                      <h5>Poliana</h5>
-                      <span>Cliente</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="single-slide focus-reset">
-                <div class="testimonial-card rounded">
-                  <p>
-                    <span class="d-inline-block quote-size-1">“</span>
-                    Olá, excelente trabalho em minha cozinha, montou 
-                    tudo e de quebra ainda montou um paneleiro aéreo 
-                    na minha área Gourmet recomendo sempre a empresa.”
-                  </p>
-                  <div class="d-flex user-details  align-items-center">
-                    <div class="user-identity">
-                      <h5>Amanda</h5>
-                      <span>Cliente</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="single-slide focus-reset">
-                <div class="testimonial-card rounded">
-                  <p>
-                    <span class="d-inline-block quote-size-1">“</span>
-                    FAZ PRA MIM SERVIÇOS GERAIS o melhor da
-                    região Embu das Artes e ainda é 24 horas super recomendo!!”
-                  </p>
-                  <div class="d-flex user-details  align-items-center">
-                    <div class="user-identity">
-                      <h5>Jadson</h5>
-                      <span>Cliente</span>
-                    </div>
-                  </div>
+                <div class="user-identity">
+                  <h5>Michele</h5>
+                  <span>Cliente</span>
                 </div>
               </div>
             </div>
@@ -431,79 +612,107 @@
         </div>
       </div>
     </div>
-    <!-- Newsletter-area start -->
-    <div class="newsletter-l-11">
+    <!--CTA Area-->
+    <div class="cta-area-l-17">
       <div class="container">
-        <div class="row justify-content-center news-l-11-main-bg position-relative">
-          <div class="news-l-11-second-bg w-100 h-100"></div>
-          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-            <div class="content text-center">
-              <h5>Peça já seu orçamento!</h5>
-              <h2>Peça o seu orçamento!</h2>
-              <p>SERVIÇO COM NOTA FISCAL E GARANTIA QUE VARIA ENTRE 3 A 12 MESES.
-                Eletricista, Encanador, Marido de Aluguel e Telhadista
-                a disposição do cliente 24 horas por dia                .</p>
-              <div class="btn-area">
-                <a href="https://api.whatsapp.com/send/?phone=5511951647240&text&app_absent=0" class="btn"><i class="fab fa-whatsapp"></i> Orçamento</a>
-              </div>
-              <span>Enviamos o orçamento sem compromisso.</span>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="d-md-flex justify-content-between text-align-lg-start text-center align-items-center">
+              <h2>Peca já o seu orçamento.</h2>
+              <a href="https://api.whatsapp.com/send/?phone=5511951647240&text&app_absent=0" class="btn">Orçamento</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Footer Area -->
-    <footer class="footer-l-11 text-center text-md-start">
+    <!--Feature Area -->
+    <div class="feature-area-l-17 position-relative">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="footer-logo-l-11">
-              <a href="#"><img src="image/footer.png" alt="logo"></a>
+        <div class="row feature-area-l-17-items justify-content-center text-center">
+          <div class="col-lg-4 col-md-6 col-sm-9">
+            <div class="single-features single-border position-relative">
+              <div class="circle-dot-1">
+                <i class="fas fa-circle"></i>
+              </div>
+              <h4>Single Platform</h4>
+              <p>Create custom landing pages with
+                Shade that convert more visitors than any website.</p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="footer-widget-l-11">
-              <ul class="pl-0 list-unstyled d-flex flex-wrap justify-content-center align-items-end ">
-                <li class="d-flex"><a href="">Sobre nós</a></li>
-                <li class="d-flex"><a href="">Serviços</a></li>
-                <li class="d-flex"><a href="">Trabalhos</a></li>
-                <li class="d-flex"><a href="">Carreira</a></li>
-                <li class="d-flex"><a href="">Contacto</a></li>
+          <div class="col-lg-4 col-md-6 col-sm-9">
+            <div class="single-features single-border position-relative">
+              <div class="circle-dot-2">
+                <i class="fas fa-circle"></i>
+              </div>
+              <h4>Faster Communication</h4>
+              <p>Create custom landing pages with
+                Shade that convert more visitors than any website.</p>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer Area-->
+    <footer class="footer-area-l-17 position-relative">
+      <div class="footer-shape">
+        <img src="image/l8/footer-shape.svg" alt="">
+      </div>
+      <div class="container pt-lg-23 pt-15 pb-12">
+        <div class="row footer-area-l-17-items justify-content-between" data-aos="fade-left" data-aos-duration="800"
+          data-aos-once="true">
+          <div class="col">
+            <div class="footer-widget widget2">
+              <p class="widget-title">Contato</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="mailto:contato@fazpramimservicos.com.br">Email contato@fazpramimservicos.com.br</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">F.a.q.</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="social-icons-l-11">
-              <ul class="pl-0 list-unstyled d-flex  justify-content-center justify-content-md-end align-items-end ">
-                <li class="d-flex flex-column justify-content-center"><a href="#"><i
-                                    class="fab fa-twitter"></i></a></li>
-                <li class="d-flex flex-column justify-content-center"><a href="https://www.facebook.com/profile.php?id=100066101843825"><i
-                                    class="fab fa-facebook-f"></i></a></li>
-                <li class="d-flex flex-column justify-content-center"><a href="https://instagram.com/fazpramimmontagem?utm_medium=copy_link"><i
-                                    class="fab fa-google"></i></a></li>
-              </ul>
+          
+        </div>
+      </div>
+      <!-- footer-bottom start -->
+      <div class="copyright-area-l-17 text-center text-md-start">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4">
+              <div class="copyright">
+                <p>© Faz Pra Mim Serviços Gerais 2021. Todos os direitos reservados.</p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <div class="footer-menu">
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                  <li><a href="#">Política de Privacidade</a></li>
+                  <li> <a href="#features">Termos e condições</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-2">
+              <div class="social-icons text-md-end">
+                <ul class="pl-0 list-unstyled">
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <div class="copyright-area-l-11">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-center">
-              <p>© Marido de Aluguel 2021 Todos os direitos reservados.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <!-- Vendor Scripts -->
   <script src="js/vendor.min.js"></script>
   <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
   <script src="./plugins/aos/aos.min.js"></script>
-  <script src="./plugins/slick/slick.min.js"></script>
   <script src="./plugins/menu/menu.js"></script>
   <!-- Activation Script -->
   <script src="js/custom.js"></script>
