@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Desktop App </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header
+      class="site-header site-header--menu-center dark-mode-texts landing-17-menu  site-header--absolute site-header--sticky">
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <a href="#">
+                <!-- light version logo (logo must be black)-->
+                <img src="image/conta.png" style="width: 70px;" alt="" class="light-version-logo">
+                <!-- Dark version logo (logo must be White)-->
+                <img src="image/conta.png" alt="" class="dark-version-logo">
+              </a>
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Serviços <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-9">
+                    <li class="sub-menu--item">
+                      <a href="#">Electricidade</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Montagem</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Pintura</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Higienização</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://api.whatsapp.com/send/?phone=5511951647240&text&app_absent=0"
+                    class="nav-link-item">Atendimento</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btns  header-btn-l-17 ms-auto d-none d-xs-inline-flex align-items-center">
+            <a class="start-trail-btn btn focus-reset" href="tel:11948748398">
+              Ligar (11) 948748398
+            </a>
+            <a class="start-trail-btn btn focus-reset" href="https://api.whatsapp.com/send/?phone=5511948748398&text&app_absent=0">
+              Orçamento
+            </a>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l-17 position-relative">
+      <div class="container">
+        <div class="row position-relative justify-content-center">
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11 order-lg-1 order-1" data-aos="fade-right"
+            data-aos-duration="800" data-aos-once="true">
+            <div class="content text-center">
+              <h1>FAZ PRA MIM SERVIÇOS GERAIS!</h1>
+              <p>Trabalhamos sempre assumindo compromissos de ética e parceria com nossos clientes, colocando a disposição os melhores profissionais qualificados.</p>
+              <a href="https://api.whatsapp.com/send/?phone=5511948748398&text&app_absent=0" class="btn">Pedir orçamento grátis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-area-l-17 position-relative">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div>
+            <div class="clearboth"></div>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="col-sm-12">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="list-61" class="mk-list-styles  mk-align-none   clear" data-charcode="mk-icon-check"
+                        data-family="">
+                        <ul>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Espelhos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Porta Chaves</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Varais de Teto e Parede</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Olho Mágico</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Trava Portas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Gancho para Redes</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Puchadores</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Fechaduras</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação e Montagem de Armários</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Acessórios de Banheiro</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Canoplas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Cooktop</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Aplicação de Rejunte</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Quadros</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Aplicação/instalação de fita antiderrapante</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Suportes de TV</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instal. de Ar Condicionado DE JANELA</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de baús</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de camas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42372"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de Aparadores</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="list-62" class="mk-list-styles  mk-align-none   clear" data-charcode="mk-icon-check"
+                        data-family="">
+                        <ul>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Pequenos Reparos em Gesso</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Suporte para Plantas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação e Montagem de Nichos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Painéis para TV</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Pega Ladrão</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Porta Sanfonada</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação e Montagem de Prateleiras</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Registro de Gás</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Cortinas e Persianas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de Sapateira</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Ombrellone</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Docel</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instalação de Veda Portas</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Instal. de Magueiras para gás de Fogão</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de bancos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Montagem de cavaletes</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>Fixação de cubos/nichos</li>
+                          <li><svg class="mk-svg-icon" data-name="mk-icon-check" data-cacheid="icon-616c289c42b81"
+                              style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1792 1792">
+                              <path
+                                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z">
+                              </path>
+                            </svg>TEMOS SCANNER DETECTOR DE CANOS E REDE ELÉTRICA</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" style="background-image: url(image/l8/back.jpg); background-size:cover;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Content Area 1-->
+    <div class="content-area-l-17-1">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-10 col-lg-12">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <div class="content-img position-relative">
+                  <div class="image-1">
+                    <img src="image/l8/images1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-6 col-md-8" data-aos="fade-left"
+                data-aos-duration="800" data-aos-once="true">
+                <div class="content section-heading-11">
+                  <h2>Conserto de vazamento de gás.</h2>
+                  <p>Atendemos todas regiões de São Paulo 
+                    e Grande São Paulo, trabalhamos sempre 
+                    assumindo compromissos de ética e parceria 
+                    com seus clientes, colocando a disposição 
+                    os melhores profissionais qualificados que 
+                    buscam o aprimoramento contínuo contribuindo 
+                    sempre com o progresso e sucesso do seus negócios.</p>
+                  <a href="https://api.whatsapp.com/send/?phone=5511948748398&text&app_absent=0" class="btn focus-reset">Orçamento</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Content Area 2-->
+    <div class="content-area-l-17-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-10 col-lg-12">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-1" data-aos="fade-left"
+                data-aos-duration="800" data-aos-once="true">
+                <div class="content section-heading-11">
+                  <h2>Eletricista 24 horas</h2>
+                  <p>A Marido de Aluguel trabalha com Eletricista 
+                    24 horas em São Paulo – Uma vez capacitado, 
+                    o rol de atividades do eletricista incluí 
+                    analisar e interpretar a fiação elétrica 
+                    através de esquemas e desenhos elétricos.</p>
+                  <a href="https://api.whatsapp.com/send/?phone=5511948748398&text&app_absent=0" class="btn focus-reset">Orçamento</a>
+                </div>
+              </div>
+              <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-right"
+                data-aos-duration="800" data-aos-once="true">
+                <div class="content-img position-relative">
+                  <div class="image-1">
+                    <img src="image/l8/images3.png" alt="">
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--Content Area 3-->
+        <div class="content-area-l-17-2">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-xl-10 col-lg-12">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-1" data-aos="fade-left"
+                    data-aos-duration="800" data-aos-once="true">
+                    <div class="content section-heading-11">
+                      <h2>Eletricista 24 horas</h2>
+                      <p>A Marido de Aluguel trabalha com Eletricista 
+                        24 horas em São Paulo – Uma vez capacitado, 
+                        o rol de atividades do eletricista incluí 
+                        analisar e interpretar a fiação elétrica 
+                        através de esquemas e desenhos elétricos.</p>
+                      <a href="https://api.whatsapp.com/send/?phone=5511948748398&text&app_absent=0" class="btn focus-reset">Orçamento</a>
+                    </div>
+                  </div>
+                  <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-right"
+                    data-aos-duration="800" data-aos-once="true">
+                    <div class="content-img position-relative">
+                      <div class="image-1">
+                        <img src="image/l8/ferramentas.png" alt="">
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!--Video Area-->
+    <div class="video-area-l-17">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-12">
+            <div class="video-content text-center">
+              <h2>Telhadista 24 horas</h2>
+              <p>Nos valorizamos muito esse setor de trabalho, 
+                A contratação de mão de obra especializada é 
+                importante porque as coberturas estão entre 
+                as partes mais importantes de uma casa, 
+                empresa ou construções em geral.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Testimonial Area-->
+    <div class="testimonial-area-l-17">
+      <div class="container">
+        <div class="row justify-content-center no-gutters border-collapse-1">
+          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
+            <div class="testimonial-card border h-100">
+              <img src="image/l8/quote.png" alt="">
+              <p>
+                  Já é a segunda vez que utilizo os serviços da FAZ PRA MIM Serviços Gerais! 
+                  O Danilo é extremamente caprichoso, cuidados! O trabalho fica perfeito! 
+                  Eu super recomendo e indico!
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="customer-img mr-4">
+                  <img src="image/l8/client-img-2.png" alt="">
+                </div>
+                <div class="user-identity">
+                  <h5>Poliana</h5>
+                  <span>Cliente</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
+            <div class="testimonial-card border h-100">
+              <img src="image/l8/quote.png" alt="" class="mb-12">
+              <p>
+                FAZ PRA MIM SERVIÇOS GERAIS o melhor da
+                    região Embu das Artes e ainda é 24 horas super recomendo!
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="customer-img">
+                  <img src="image/l8/client-img-1.png" alt="">
+                </div>
+                <div class="user-identity">
+                  <h5>Jadson</h5>
+                  <span>Cliente</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
+            <div class="testimonial-card border h-100">
+              <img src="image/l8/quote.png" alt="" class="mb-12">
+              <p>
+                    Sabe aquela lista de coisas para consertar na casa
+                    e que deixamos sempre pra depois? Uma lâmpada que
+                    não liga mais, uma porta de guarda roupa que não
+                    fecha, um varal para montar ou serviços elétricos
+                    como foi o meu caso, a troca de uma resistência
+                    de chuveiro. Vilson e Vilma são profissionais 
+                    de qualidade e excelência. Dá para confiar. 
+                    Superou as expectativas. Se recomendo? Óbvio!
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="customer-img mr-4">
+                  <img src="image/l8/client-img-4.png" alt="">
+                </div>
+                <div class="user-identity">
+                  <h5>Michele</h5>
+                  <span>Cliente</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CTA Area-->
+    <div class="cta-area-l-17">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="d-md-flex justify-content-between text-align-lg-start text-center align-items-center">
+              <h2>Peca já o seu orçamento.</h2>
+              <a href="https://api.whatsapp.com/send/?phone=5511948748398&text&app_absent=0" class="btn">Orçamento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Feature Area -->
+    <div class="feature-area-l-17 position-relative">
+      <div class="container">
+        <div class="row feature-area-l-17-items justify-content-center text-center">
+          <div class="col-lg-4 col-md-6 col-sm-9">
+            <div class="single-features single-border position-relative">
+              <div class="circle-dot-1">
+                <i class="fas fa-circle"></i>
+              </div>
+              <h4>Single Platform</h4>
+              <p>Create custom landing pages with
+                Shade that convert more visitors than any website.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-9">
+            <div class="single-features single-border position-relative">
+              <div class="circle-dot-2">
+                <i class="fas fa-circle"></i>
+              </div>
+              <h4>Faster Communication</h4>
+              <p>Create custom landing pages with
+                Shade that convert more visitors than any website.</p>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer Area-->
+    <footer class="footer-area-l-17 position-relative">
+      <div class="footer-shape">
+        <img src="image/l8/footer-shape.svg" alt="">
+      </div>
+      <div class="container pt-lg-23 pt-15 pb-12">
+        <div class="row footer-area-l-17-items justify-content-between" data-aos="fade-left" data-aos-duration="800"
+          data-aos-once="true">
+          <div class="col">
+            <div class="footer-widget widget2">
+              <p class="widget-title">Contato</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="mailto:contato@fazpramimservicos.com.br">Email contato@fazpramimservicos.com.br</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">F.a.q.</a></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- footer-bottom start -->
+      <div class="copyright-area-l-17 text-center text-md-start">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4">
+              <div class="copyright">
+                <p>© Faz Pra Mim Serviços Gerais 2021. Todos os direitos reservados.</p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <div class="footer-menu">
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                  <li><a href="#">Política de Privacidade</a></li>
+                  <li> <a href="#features">Termos e condições</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-2">
+              <div class="social-icons text-md-end">
+                <ul class="pl-0 list-unstyled">
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
