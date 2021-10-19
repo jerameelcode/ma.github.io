@@ -803,7 +803,10 @@ div#loading img {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+.site-header {
+  background-color: #ffc400;
+  color: #000;
+}
 .site-menu-main > li .sub-menu.mega-menu {
   left: 50%;
   transform: translateX(-50%);
@@ -1993,7 +1996,7 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .landing-17-menu.reveal-header .sign-in-btn {
-  color: #fff !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .landing-17-menu.reveal-header .nav-link-item {
@@ -2168,7 +2171,7 @@ svg {
   color: #0F3D33;
   min-width: 163px;
   height: 50px;
-  background: #ffc400;
+  background: #f3b713;
   box-sizing: border-box;
   border-radius: 3px;
   margin-left: 15px;
