@@ -3064,7 +3064,23 @@ svg {
 #section-service {
   margin-top: -2em;
 }
+.whatsapp {
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 50%;
+  background-color: #25D366;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
 
+.whatsapp a {
+  color: #fff;
+}
 .cta-area-l-17 .btn {
   background: #ffbb00;
   border-radius: 3px;
